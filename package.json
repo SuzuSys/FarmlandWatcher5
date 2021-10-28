@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "export SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
     "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "export SET NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint"
   },
   "dependencies": {
     "aws-amplify": "^4.3.3",
