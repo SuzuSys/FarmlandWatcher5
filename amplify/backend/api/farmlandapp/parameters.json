@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "farmlandapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authfarmlandappc34e71cb",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
